@@ -6,6 +6,7 @@ services:
     image: sonarqube:8.9-community
     ports:
       - 9090:9000
+      - 9092:9092
     volumes:
       - sonar_data:/opt/sonarqube/data
       - sonar_logs:/opt/sonarqube/logs

@@ -1,6 +1,10 @@
-version: "3.1"
-
 services:
   portainer:
-    container_name: manager_portainer
+    container_name: portainer-maneger
     image: portainer/portainer-ce:alpine
+    restart: always
+    ports:
+      - 8000:8000
+      - 9000:9000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
