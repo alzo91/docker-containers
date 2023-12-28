@@ -1,0 +1,6 @@
+version: "3.1"
+
+services:
+  portainer:
+    container_name: manager_portainer
+    image: portainer/portainer-ce:alpine

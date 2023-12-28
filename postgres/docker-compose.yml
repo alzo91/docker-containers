@@ -1,0 +1,17 @@
+version: "3.1"
+
+services:
+  db:
+    container_name: db_pg_v15
+    image: postgres:15.5-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: $(PG_PWD)
+    ports:
+      - 5678:5432
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
+    external: true
