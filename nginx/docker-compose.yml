@@ -8,6 +8,11 @@ services:
       - 8080:80
     volumes:
       - configs:/etc/nginx
-
+    networks:
+      - frontend
 volumes:
   configs:
+networks:
+  frontend:
+    name: frontend
+    external: true
