@@ -1,5 +1,7 @@
-echo "Creating volume for Postgres"
+echo "Starting to create new network for front-end"
+docker network create --driver bridge frontend
 
+echo "Creating volume for Postgres"
 docker volume create pg_data
 
 echo "\n Creating SGBD Postgres"

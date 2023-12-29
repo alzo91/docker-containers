@@ -11,7 +11,13 @@ services:
       - sonar_data:/opt/sonarqube/data
       - sonar_logs:/opt/sonarqube/logs
       - sonar_extensions:/opt/sonarqube/extensions
+    networks:
+      - frontend
 volumes:
   sonar_data:
   sonar_logs:
   sonar_extensions:
+networks:
+  frontend:
+    name: frontend
+    external: true

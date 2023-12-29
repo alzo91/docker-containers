@@ -1,6 +1,6 @@
 services:
   portainer:
-    container_name: portainer-maneger
+    container_name: portainer-manager
     image: portainer/portainer-ce:alpine
     restart: always
     ports:
@@ -8,3 +8,9 @@ services:
       - 9000:9000
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - frontend
+networks:
+  frontend:
+    name: frontend
+    external: true
