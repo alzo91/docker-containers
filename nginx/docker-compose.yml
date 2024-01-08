@@ -1,18 +1,18 @@
 version: "3.1"
 
 services:
-  web-proxy:
-    container_name: nginx-proxy
-    image: nginx:stable
+  http-proxy:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: http-proxy
+    image: http-proxy
+    tty: true
+    restart: always
     ports:
       - 8080:80
-    volumes:
-      - configs:/etc/nginx
     networks:
       - frontend
-volumes:
-  configs:
 networks:
   frontend:
     name: frontend
-    external: true

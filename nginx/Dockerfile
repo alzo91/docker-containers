@@ -1,10 +1,9 @@
 FROM nginx:latest
 
-RUN apt-get update
-RUN apt-get install vim -y
+LABEL name="Alisson Lucas Zotarelli de Olivera"
 
-COPY html/ /usr/share/nginx/html
+RUN apt-get update -y && apt-get install vim curl wget -y && apt-get install iputils-ping -y 
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
-
-CMD ["nginx","-g","daemon off;"]
+COPY /conf.d /etc/nginx/conf.d
+ 
+EXPOSE 80

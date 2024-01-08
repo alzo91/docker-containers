@@ -3,7 +3,7 @@ version: "3.1"
 services:
   sonarqube:
     container_name: sonarqube
-    image: sonarqube:8.9-community
+    image: sonarqube
     ports:
       - 9090:9000
     environment:
