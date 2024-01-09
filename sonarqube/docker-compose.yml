@@ -6,6 +6,7 @@ services:
     image: sonarqube
     ports:
       - 9090:9000
+    restart: always
     environment:
       - SONAR_WEB_CONTEXT=/sonarqube
     volumes:
