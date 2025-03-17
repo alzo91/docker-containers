@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Ford</make>
+    <model>Mustang</model>
+    <year>2018</year>
+    <travel_history>
+        <cumulative_travel>
+            <value>89012</value>
+            <unit>road_miles</unit>
+        </cumulative_travel>
+    </travel_history>
+    <condition>Good</condition>
+</car>

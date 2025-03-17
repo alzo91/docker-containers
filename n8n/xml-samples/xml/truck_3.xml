@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Scania</make>
+    <model>R-Series</model>
+    <year>2018</year>
+    <type>Refrigerated Transport</type>
+    <kilometers>412890</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>580</horsepower>
+    </engine>
+    <capacity>
+        <weight>22.7</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

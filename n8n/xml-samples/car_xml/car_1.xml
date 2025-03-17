@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Toyota</make>
+    <model>Camry</model>
+    <year>2019</year>
+    <mileage_record>
+        <total_distance>
+            <value>45678</value>
+            <unit>miles</unit>
+        </total_distance>
+    </mileage_record>
+    <condition>Excellent</condition>
+</car>

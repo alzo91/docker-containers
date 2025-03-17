@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Freightliner</make>
+    <model>Cascadia</model>
+    <year>2019</year>
+    <type>Long Haul</type>
+    <kilometers>356789</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>500</horsepower>
+    </engine>
+    <capacity>
+        <weight>33.2</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

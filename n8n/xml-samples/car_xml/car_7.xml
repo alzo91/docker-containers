@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Audi</make>
+    <model>A4</model>
+    <year>2019</year>
+    <travel_statistics>
+        <operational_miles>
+            <business_use>23456</business_use>
+            <personal_use>34567</personal_use>
+            <unit>miles</unit>
+        </operational_miles>
+    </travel_statistics>
+    <condition>Very Good</condition>
+</car>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>DAF</make>
+    <model>XF</model>
+    <year>2019</year>
+    <type>Container Transport</type>
+    <kilometers>298765</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>530</horsepower>
+    </engine>
+    <capacity>
+        <weight>40.0</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

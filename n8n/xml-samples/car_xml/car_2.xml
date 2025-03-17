@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Honda</make>
+    <model>Accord</model>
+    <year>2020</year>
+    <usage_metrics>
+        <odometer_reading>
+            <start_point>12345</start_point>
+            <current_point>67890</current_point>
+            <unit>kilometers</unit>
+        </odometer_reading>
+    </usage_metrics>
+    <condition>Very Good</condition>
+</car>

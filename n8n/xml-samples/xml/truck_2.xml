@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Mercedes-Benz</make>
+    <model>Actros</model>
+    <year>2020</year>
+    <type>Construction</type>
+    <kilometers>267543</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>625</horsepower>
+    </engine>
+    <capacity>
+        <weight>28.3</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

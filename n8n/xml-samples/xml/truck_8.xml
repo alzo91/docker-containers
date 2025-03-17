@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Peterbilt</make>
+    <model>579</model>
+    <year>2018</year>
+    <type>Flatbed</type>
+    <kilometers>412309</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>485</horsepower>
+    </engine>
+    <capacity>
+        <weight>29.5</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

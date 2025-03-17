@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Tesla</make>
+    <model>Model 3</model>
+    <year>2020</year>
+    <electric_journey_metrics>
+        <energy_consumption>
+            <total_miles>42345</total_miles>
+            <charging_cycles>156</charging_cycles>
+            <unit>miles</unit>
+        </energy_consumption>
+    </electric_journey_metrics>
+    <condition>Excellent</condition>
+</car>

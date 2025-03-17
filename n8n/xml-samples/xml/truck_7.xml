@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Kenworth</make>
+    <model>T680</model>
+    <year>2020</year>
+    <type>Long Haul</type>
+    <kilometers>223456</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>605</horsepower>
+    </engine>
+    <capacity>
+        <weight>36.7</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Chevrolet</make>
+    <model>Camaro</model>
+    <year>2019</year>
+    <distance_tracking>
+        <lifetime_miles>
+            <driven>56789</driven>
+            <remaining_estimated>43211</remaining_estimated>
+            <unit>miles</unit>
+        </lifetime_miles>
+    </distance_tracking>
+    <condition>Very Good</condition>
+</car>

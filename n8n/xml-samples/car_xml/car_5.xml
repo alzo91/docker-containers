@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>BMW</make>
+    <model>3 Series</model>
+    <year>2020</year>
+    <mileage_data>
+        <annual_usage>
+            <yearly_miles>12500</yearly_miles>
+            <total_accumulated>37500</total_accumulated>
+            <unit>miles</unit>
+        </annual_usage>
+    </mileage_data>
+    <condition>Excellent</condition>
+</car>

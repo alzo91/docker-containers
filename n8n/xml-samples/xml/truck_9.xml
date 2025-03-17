@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>International</make>
+    <model>LoneStar</model>
+    <year>2021</year>
+    <type>Heavy Haul</type>
+    <kilometers>87654</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>475</horsepower>
+    </engine>
+    <capacity>
+        <weight>45.0</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Volvo</make>
+    <model>FH16</model>
+    <year>2019</year>
+    <type>Long Haul</type>
+    <kilometers>345678</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>750</horsepower>
+    </engine>
+    <capacity>
+        <weight>35.5</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

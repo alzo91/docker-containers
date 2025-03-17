@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>Iveco</make>
+    <model>Stralis</model>
+    <year>2017</year>
+    <type>Tanker</type>
+    <kilometers>589012</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>460</horsepower>
+    </engine>
+    <capacity>
+        <weight>25.6</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

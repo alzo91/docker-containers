@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<truck>
+    <make>MAN</make>
+    <model>TGX</model>
+    <year>2021</year>
+    <type>Long Haul</type>
+    <kilometers>156234</kilometers>
+    <engine>
+        <type>Diesel</type>
+        <horsepower>510</horsepower>
+    </engine>
+    <capacity>
+        <weight>32.5</weight>
+        <unit>tons</unit>
+    </capacity>
+</truck>

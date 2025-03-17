@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Mercedes-Benz</make>
+    <model>C-Class</model>
+    <year>2017</year>
+    <journey_log>
+        <total_journeys>
+            <count>1245</count>
+            <average_distance>
+                <value>38</value>
+                <unit>kilometers_per_journey</unit>
+            </average_distance>
+        </total_journeys>
+        <cumulative_distance>
+            <value>47290</value>
+            <unit>kilometers</unit>
+        </cumulative_distance>
+    </journey_log>
+    <condition>Good</condition>
+</car>

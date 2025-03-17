@@ -1,0 +1,26 @@
+version: "3.1"
+
+services:
+  n8n:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: n8n-img-001
+    container_name: n8n-T07
+    restart: always
+    network_mode: "host"
+    ports:
+      - 5678:5678
+    environment:
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - NODE_ENV=production
+      - WEBHOOK_URL=http://localhost:5678/
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+#volumes:
+#  n8n_data:

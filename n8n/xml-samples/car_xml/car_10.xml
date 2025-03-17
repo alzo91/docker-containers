@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Lexus</make>
+    <model>IS</model>
+    <year>2019</year>
+    <travel_log>
+        <accumulated_travel>
+            <interstate>28765</interstate>
+            <city>17654</city>
+            <unit>miles</unit>
+        </accumulated_travel>
+    </travel_log>
+    <condition>Very Good</condition>
+</car>

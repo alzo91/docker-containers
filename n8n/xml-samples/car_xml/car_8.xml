@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+    <make>Nissan</make>
+    <model>Altima</model>
+    <year>2018</year>
+    <distance_profile>
+        <total_travel>
+            <value>65432</value>
+            <unit>road_kilometers</unit>
+        </total_travel>
+        <maintenance_intervals>
+            <last_service_at>50000</last_service_at>
+            <next_service_at>75000</next_service_at>
+            <unit>kilometers</unit>
+        </maintenance_intervals>
+    </distance_profile>
+    <condition>Good</condition>
+</car>
